@@ -11,17 +11,24 @@
 
 <body>
   <header class="cabecalho">
-    <span class="cabecalho__menu-hamburger"></span>
-    <img src="img/Logo.svg" alt="Logo da AluraBooks">
-    <a href="#">
-      <img src="img/Favoritos.svg" alt="Logo da AluraBooks">
-    </a>
-    <a href="#">
-      <img src="img/Compras.svg" alt="Logo da AluraBooks">
-    </a>
-    <a href="#">
-      <img src="img/Usuario.svg" alt="Logo da AluraBooks">
-    </a>
+    <div class="container">
+      <input type="checkbox" name="menu" id="menu" class="container__botao">
+      <label for="menu">
+        <span class="cabecalho__menu-hamburger container__imagem"></span>
+      </label>
+      <img src="img/Logo.svg" alt="Logo da AluraBooks" class="container__imagem">
+    </div>
+    <div class="container">
+      <a href="#" class="cabecalho__link">
+        <img src="img/Favoritos.svg" alt="Meus favoritos" class="container__imagem">
+      </a>
+      <a href="#" class="cabecalho__link">
+        <img src="img/Compras.svg" alt="Carrinho de compras" class="container__imagem">
+      </a>
+      <a href="#" class="cabecalho__link">
+        <img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem">
+      </a>
+    </div>
   </header>
 </body>
 
