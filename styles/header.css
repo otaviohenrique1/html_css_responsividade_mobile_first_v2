@@ -32,18 +32,37 @@
   display: none;
   position: absolute;
   top: 100%;
+  width: 60vh;
 }
-
 
 .container__botao:checked~.lista-menu {
   display: block;
 }
+
 /*
 .container__botao:checked~.lista-menu => acento til, no css é chamado combinador CSS. Um combinador CSS desse aqui, do acento til, ele vai procurar um outro elemento que vem em seguida daquele de antes, que tem aquela classe .
 */
 
-.lista-menu__titulo {}
+.lista-menu__titulo,
+.lista-menu__item {
+  padding: 1em;
+  background-color: var(--branco);
+}
 
-.lista-menu__item {}
+.lista-menu__titulo {
+  color: var(--laranja);
+  font-weight: 700;
+}
 
-.lista-menu__link {}
+.lista-menu__link {
+  background: var(--azul-degrade);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-transform: uppercase;
+  /*Texto fica em maiusculo*/
+}
+
+.container__botao {
+  display: none;
+}
