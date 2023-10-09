@@ -41,12 +41,12 @@
 
 .descricao {}
 
-.descricao_titulo {
+.descricao__titulo {
   color: var(--laranja);
   font-weight: 700;
 }
 
-.descricao_titulo-livro {
+.descricao__titulo-livro {
   color: var(--azul);
   font-size: 18px;
   font-weight: 700;
@@ -57,7 +57,7 @@
   font-size: 14px;
 }
 
-.descricao_imagem {}
+.descricao__imagem {}
 
 .card__botoes {
   display: flex;
@@ -78,4 +78,8 @@
   color: var(--branco);
   font-weight: 700;
   text-decoration: none;
+}
+
+.descricao__estrelas {
+  margin-bottom: .5em;
 }
