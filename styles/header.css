@@ -66,3 +66,12 @@
 .container__botao {
   display: none;
 }
+
+/*
+  min-width no media query => quando for mobile first
+  max-width no media query => quando for desktop first
+*/
+
+@media screen and (min-width: 1024px) {
+  
+}
