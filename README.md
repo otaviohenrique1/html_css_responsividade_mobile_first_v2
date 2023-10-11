@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Projeto feito no curso de 'HTML e CSS: responsividade com mobile-first' da Alura. Revisão do conteudo.
+Projeto feito no curso de 'HTML e CSS: responsividade com mobile-first' da Alura. Layout feito para o mobile, tablet e desktop. Revisão do conteudo.
 
 ## Tecnologias
 
