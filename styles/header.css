@@ -17,6 +17,15 @@
   > => procura algo que esteja dentro do elemento
 */
 
+/*
+  +	=> Seleciona elementos que estão logo após o elemento especificado antes do símbolo. Exemplo => .container__botao + container__rotulo
+
+  ~ => Seleciona elementos que estão após (mas não necessariamente em seguida) o elemento especificado antes do símbolo. Exemplo => .container__botao ~ .container__rotulo
+
+  > => Seleciona elementos que estão dentro do elemento especificado antes do símbolo. Exemplo => .container__rotulo>.cabeçalho__menu-hamburguer
+
+*/
+
 .container__botao:checked~.container__rotulo {
   background: var(--azul-degrade);
 }
